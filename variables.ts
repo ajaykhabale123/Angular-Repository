@@ -18,5 +18,10 @@ var s2 : string = `Powerful people come from powerful places`;
 console.log(s1);
 console.log(s2);
 
+// union type==>    | pipe operator
 
+var sn : string | number;
+sn = 'Codemind';
+sn = 10;
+// sn = true; // it throws the error
 
