@@ -25,3 +25,5 @@ sn = 'Codemind';
 sn = 10;
 // sn = true; // it throws the error
 
+
+
