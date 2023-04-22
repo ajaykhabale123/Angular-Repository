@@ -2,10 +2,12 @@ var Product = /** @class */ (function () {
     function Product() {
     }
     Product.prototype.display = function () {
-        throw new Error("Method not implemented.");
+        return 7890;
     };
     return Product;
 }());
+var product = new Product();
+console.log(product.display());
 var Excel = /** @class */ (function () {
     function Excel() {
     }

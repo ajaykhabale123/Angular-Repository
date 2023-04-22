@@ -8,14 +8,18 @@ interface IProduct {
 }
 
 class Product implements IProduct {
-    id: number;
+    id: number ;
     name: string;
     description: string;
     price: number;
     display(): number {
-        throw new Error("Method not implemented.");
+        return 7890
     }
 }
+
+let product = new Product();
+console.log(product.display());
+
 
 
 
